@@ -51,7 +51,7 @@ Throughout their participation in six events, the iBots team was required to sub
 * [USO DINÂMICO DE ESQUEMAS TÁTICOS COM REDES NEURAIS PERCEPTRON DE MÚLTIPLAS CAMADAS NA EQUIPE IBOTS DE FUTEBOL DE ROBÔS SIMULADOS, 2010](https://github.com/ibotsuft/.github/blob/main/our_work/USO%20DIN%C3%82MICO%20DE%20ESQUEMAS%20T%C3%81TICOS%20COM_REDES%20NEURAIS%20PERCEPTRON.pdf)
 * [Jogadas Coletivas por meio de Comunicação Multi-Agente para a equipe iBots da Categoria de Simulação 2D da RoboCup, 2011](https://github.com/ibotsuft/.github/blob/main/our_work/Jogadas%20Coletivas%20por%20meio%20de%20Comunica%C3%A7%C3%A3o%20Multi-Agente%20para%20a%20equipe%20iBots%20da%20Categoria%20de%20Simula%C3%A7%C3%A3o%202D.pdf)
 * [Implementação de um Sistema de Aprendizado por Reforço para Aprimoramento de Passes na Equipe iBots de Futebol de Robôs Simulados 2D, 2012](https://github.com/ibotsuft/.github/blob/main/our_work/Implementa%C3%A7%C3%A3o%20de%20um%20Sistema%20de%20Aprendizado%20por%20Refor%C3%A7o%20para%20Aprimoramento%20de%20Passes%20na%20Equipe%20iBots%20de%20Futebol%20de%20Rob%C3%B4s%20Simulados.pdf)
-* [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013]()
+* [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013](https://github.com/ibotsuft/.github/blob/main/our_work/Rcssdebugger%20-%20Um%20depurador%20para%20a_liga%20Robocup%20Simulation%202D%20de%20futebol_de%20rob%C3%B4s.pdf)
 * [ANÁLISE DE CONCEITOS TÁTICOS DO FUTEBOL POR MEIO DE SIMULAÇÃO COMPUTACIONAL, 2015](https://github.com/ibotsuft/.github/blob/main/our_work/AN%C3%81LISE%20DE%20CONCEITOS%20T%C3%81TICOS%20DO%20FUTEBOL.pdf)
 
 ## Introduction to C++
