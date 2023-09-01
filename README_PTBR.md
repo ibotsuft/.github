@@ -1,30 +1,30 @@
 # iBots 2D UFT
 
-The iBots team was established in 2010 by Professor Alexandre Rossini and students Tanilson Dias, Horiano Gomes, Edcarllos Gonçalves, Guilherme Batista, and Vitor Sousa, all hailing from the Computer Science program at the Federal University of Tocantins. In that inaugural year, they took part in the Latin American Robotics Competition, where they secured the 8th position among 9 competing teams. This first iteration of iBots was based on the UvA Trilearn platform, which turned out to be their final reliance on this particular foundation. Following the competition, they transitioned to using HELIOS-BASE, also known as agent2d.
+A equipe iBots foi fundada em 2010 pelo Professor Alexandre Rossini e pelos estudantes Tanilson Dias, Horiano Gomes, Edcarllos Gonçalves, Guilherme Batista e Vitor Sousa, todos provenientes do programa de Ciência da Computação da Universidade Federal do Tocantins. Naquele ano inaugural, eles participaram da Competição Latino-Americana de Robótica, onde conquistaram a 8ª posição entre 9 equipes competidoras. Essa primeira versão dos iBots foi baseada na plataforma UvA Trilearn, que acabou sendo sua última dependência dessa base específica. Após a competição, eles fizeram a transição para o uso do HELIOS-BASE, também conhecido como agent2d.
 
-Over the years, the team actively participated in various events, including the 2011 "Competição Brasileira de Robótica" (CBR), the Brazilian Robotics Competition, as well as the 2012 LARC, 2013 CBR, 2015 CBR, and their final event in 2016, the CBR.
+Ao longo dos anos, a equipe participou ativamente de diversos eventos, incluindo a Competição Brasileira de Robótica (CBR) de 2011, a Competição Brasileira de Robótica de 2012, a CBR de 2013, a CBR de 2015 e seu evento final em 2016, a CBR.
 
-Subsequently, the team went on a hiatus until 2023 when it was resurrected as a subject of research for undergraduate student Eric Jonai. Professor Tanilson Dias, one of the original founders of iBots, served as his advisor during this period. Later in the same year, the team also became a focal point of research for the "Programa Institucional de Bolsas de Iniciação Científica" (PIBIC), undertaken by student Érick Santos.
+Posteriormente, a equipe entrou em hiato até 2023, quando foi ressuscitada como objeto de pesquisa pelo estudante de graduação Eric Jonai. O Professor Tanilson Dias, um dos fundadores originais dos iBots, atuou como seu orientador durante esse período. Mais tarde, no mesmo ano, a equipe também se tornou um ponto focal de pesquisa para o Programa Institucional de Bolsas de Iniciação Científica (PIBIC), realizado pelo estudante Érick Santos.
 
-Today, iBots has set its sights on several goals, including the refactoring of legacy iBots code from previous versions, fostering the enthusiasm of new students to delve into this field, a dedicated focus on Coach Agents, and active participation in upcoming robotics competitions.
+Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código legado dos iBots de versões anteriores, fomentar o entusiasmo de novos estudantes para se aprofundarem nesse campo, um foco dedicado no Agente Treinador e participação ativa em competições de robótica futuras.
 
 ## Table of Contents
 
-- [Introduction to RoboCup 2D Soccer League](#introduction-to-robocup-2d-soccer-league)
-- [Important links](#important-links)
-- [Our work](#our-work)
-- [Introduction to C++](#introduction-to-c++)
-- [Tutorials](#tutorials)
-  - [How to Install rcssserver](#how-to-install-rcssserver)
-  - [How to Install rcssmonitor](#how-to-install-rcssmonitor)
-  - [How to Install librsc](#how-to-install-librsc)
-  - [How to Install HELIOS-BASE team](#how-to-install-HELIOS-BASE-team)
-  - [How to execute a match](#how-to-execute-a-match)
+- [Introdução à Liga de Futebol 2D da RoboCup](#introdução-à-robocup-2d-soccer-league)
+- [Links Importantes](#links-importantes)
+- [Nosso Trabalho](#nosso-trabalho)
+- [Introdução ao C++](#introdução-ao-c++)
+- [Tutoriais](#tutoriais)
+  - [Como Instalar o rcssserver](#como-instalar-o-rcssserver)
+  - [Como Instalar o rcssmonitor](#como-instalar-o-rcssmonitor)
+  - [Como Instalar o librsc](#como-instalar-o-librsc)
+  - [Como Instalar a Equipe HELIOS-BASE](#como-instalar-a-equipe-helios-base)
+  - [Como Executar uma Partida](#como-executar-uma-partida)
  
-## Introduction to RoboCup 2D Soccer League
+## Introdução a liga de simulação de futebol 2D da RoboCup
 
 
-## Important links
+## Links importantes
 
 * [RoboCup Federation official web site](https://www.robocup.org/)
 * [RoboCup Soccer Simulation League](https://ssim.robocup.org/)
@@ -36,9 +36,9 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 * [LARC/CBR 2023](https://bitbucket.org/larc_cbr_2d_simulation/larc-cbr-2023-simulation-2d/src/master/)
 
 
-## Our work
+## Nosso trabalho
 
-Throughout their participation in six events, the iBots team was required to submit a Team Description Paper (TDP) for each of them, resulting in a total of six papers authored by the iBots. Furthermore, a number of participants also chose iBots as the subject of their research endeavors.
+Ao longo de sua participação em seis eventos, a equipe iBots precisou enviar um Artigo de Descrição da Equipe (TDP) para cada um deles, resultando em um total de seis artigos escritos pela equipe iBots. Além disso, diversos participantes escolheram os iBots como tema de suas pesquisas.
 
 * [iBots 2010: Descrição do Time]()
 * [IBOTS 2011: DESCRIÇÃO DO TIME]()
@@ -52,24 +52,24 @@ Throughout their participation in six events, the iBots team was required to sub
 * [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013]()
 * [ANÁLISE DE CONCEITOS TÁTICOS DO FUTEBOL POR MEIO DE SIMULAÇÃO COMPUTACIONAL, 2015]()
 
-## Introduction to C++
+## Introdução C++
 
 
-## Tutorials
+## Tutoriais
 
 
-### How to Install rcssserver
+### Como instalar rcssserver
 
 
-### How to Install rcssmonitor
+### Como instalar rcssmonitor
 
 
-### How to Install librsc
+### Como instalar librsc
 
 
-### How to Install HELIOS-BASE team
+### Como instalar HELIOS-BASE team
 
 
-### How to execute a match
+### Como executar uma partida
 
 
