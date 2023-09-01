@@ -1,6 +1,6 @@
 # iBots 2D UFT
 
-**To see this document in PT-BR: [iBots 2D UFT](https://github.com/ibotsuft/.github/blob/main/README_PTBR.md)
+**To see this document in PT-BR:** [iBots 2D UFT](https://github.com/ibotsuft/.github/blob/main/README_PTBR.md)
 
 The iBots team was established in 2010 by Professor Alexandre Rossini and students Tanilson Dias, Horiano Gomes, Edcarllos Gonçalves, Guilherme Batista, and Vitor Sousa, all hailing from the Computer Science program at the Federal University of Tocantins. In that inaugural year, they took part in the Latin American Robotics Competition, where they secured the 8th position among 9 competing teams. This first iteration of iBots was based on the UvA Trilearn platform, which turned out to be their final reliance on this particular foundation. Following the competition, they transitioned to using HELIOS-BASE, also known as agent2d.
 
