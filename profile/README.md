@@ -86,7 +86,7 @@ Before installing the tools:
 
 - Go to https://github.com/rcsoccersim/rcssserver/releases and download the last version of rcssserver, in this case, it is the file:  
 ```
-  rcssserver-18.1.3.tar.gz 
+  
 ```
 
 - Move the file to the tools folder and extract it:
@@ -133,6 +133,57 @@ Note: As I am using Kali Linux, the default shell is zsh, so, the file that I am
 ```
 
 ### How to Install rcssmonitor
+
+- Install all needed dependencies:
+```bash
+  sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+Note: If you get this error: Package 'qt5-default' has no installation candidate, you must do:  
+```bash
+  sudo apt install build-essential libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+and 
+
+```bash
+sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+```
+
+- Go to https://github.com/rcsoccersim/rcssmonitor and download the last version of rcssmonitor, in this case, it is the file:  
+```
+  rcssmonitor-18.0.0.tar.gz 
+```
+
+- Move the file to the tools folder and extract it:
+```bash
+  tar xvzf rcssmonitor-18.0.0.tar.gz 
+```
+
+- Enter the rcssserver directory:
+```bash
+  cd rcssmonitor-18.0.0
+```
+
+- Configure the project:
+```bash
+  ./configure --prefix=$HOME/Documents/rc/tools
+```
+
+- Compile the files:
+```bash
+  sudo make -j6
+```
+
+- Install the project:
+```bash
+  sudo make install
+```
+
+- Run the rcssmonitor:
+```bash
+  rcssmonitor
+```
 
 
 ### How to Install librsc
