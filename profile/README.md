@@ -12,16 +12,18 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 
 ## Table of Contents
 
-- [Introduction to RoboCup 2D Soccer League](#introduction-to-robocup-2d-soccer-league)
-- [Important links](#important-links)
-- [Our work](#our-work)
-- [Introduction to C++](#introduction-to-c++)
-- [Tutorials](#tutorials)
-  - [How to Install rcssserver](#how-to-install-rcssserver)
-  - [How to Install rcssmonitor](#how-to-install-rcssmonitor)
-  - [How to Install librsc](#how-to-install-librsc)
-  - [How to Install HELIOS-BASE team](#how-to-install-HELIOS-BASE-team)
-  - [How to execute a match](#how-to-execute-a-match)
+- [iBots 2D UFT](#ibots-2d-uft)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction to RoboCup 2D Soccer League](#introduction-to-robocup-2d-soccer-league)
+  - [Important links](#important-links)
+  - [Our work](#our-work)
+  - [Introduction to C++](#introduction-to-c)
+  - [Tutorials](#tutorials)
+    - [How to Install rcssserver](#how-to-install-rcssserver)
+    - [How to Install rcssmonitor](#how-to-install-rcssmonitor)
+    - [How to Install librsc](#how-to-install-librsc)
+    - [How to Install HELIOS-BASE team](#how-to-install-helios-base-team)
+    - [How to execute a match](#how-to-execute-a-match)
  
 ## Introduction to RoboCup 2D Soccer League
 
@@ -59,9 +61,76 @@ Throughout their participation in six events, the iBots team was required to sub
 
 ## Tutorials
 
+Before installing the tools:
+
+- Create a directory named rc:
+```bash
+  mkdir rc
+```
+- Enter the rc directory:
+```bash
+  cd rc
+```
+
+- Create a tools directory inside rc:
+```bash
+  mkdir tools
+```
 
 ### How to Install rcssserver
 
+- Install all needed dependencies:
+```bash
+  sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
+```
+
+- Go to https://github.com/rcsoccersim/rcssserver/releases and download the last version of rcssserver, in this case, it is the file:  
+```
+  rcssserver-18.1.3.tar.gz 
+```
+
+- Move the file to the tools folder and extract it:
+```bash
+  tar xvzf rcssserver-18.1.3.tar.gz
+```
+
+- Enter the rcssserver directory:
+```bash
+  cd rcssserver-18.1.3
+```
+
+- Configure the project:
+```bash
+  ./configure --prefix=$HOME/Documents/rc/tools
+```
+
+Note: You can substitute the "$HOME/Documents" with the location of your rc folder.
+
+- Compile the files:
+```bash
+  sudo make -j6
+```
+
+- Install the project:
+```bash
+  sudo make install
+```
+
+- Configure .bashrc or the default shell of your linux distro file:
+```bash
+  # Add these lines in the final of the file:
+  ### user
+  export LD_LIBRARY_PATH=$HOME/Documents/rc/tools/lib:$LD_LIBRARY_PATH
+  export PATH=$HOME/Documents/rc/tools/bin:$PATH
+```
+
+Note: you can edit this file with any text editor. It's located in the home directory.
+Note: As I am using Kali Linux, the default shell is zsh, so, the file that I am changing is .zshrc, not .bashrc.
+
+- Run the rcssserver:
+```bash
+  rcssserver
+```
 
 ### How to Install rcssmonitor
 
