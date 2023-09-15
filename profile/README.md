@@ -188,6 +188,45 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 
 ### How to Install librsc
 
+- Install all needed dependencies:
+```bash
+sudo apt install build-essential libboost-all-dev autoconf automake libtool
+```
+
+- Go to https://github.com/rcsoccersim/rcssmonitor and download the last version of librcsc, in this case, it is the file:  
+```
+  rc2023.tar.gz
+```
+
+- Move the file to the tools folder and extract it:
+```bash
+  tar xvzf rc2023.tar.gz
+```
+
+- Enter the librcsc directory:
+```bash
+  cd librcsc-rc2023
+```
+
+- Run the command:
+```bash
+  ./bootstrap
+```
+
+- Configure the project:
+```bash
+  ./configure --prefix=$HOME/Documents/rc/tools
+```
+
+- Compile the files:
+```bash
+  sudo make -j6
+```
+
+- Install the project:
+```bash
+  sudo make install
+```
 
 ### How to Install HELIOS-BASE team
 
