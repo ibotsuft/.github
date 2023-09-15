@@ -85,8 +85,8 @@ Before installing the tools:
 ```
 
 - Go to https://github.com/rcsoccersim/rcssserver/releases and download the last version of rcssserver, in this case, it is the file:  
-```
-  
+```bash
+   rcssserver-18.1.3.tar.gz 
 ```
 
 - Move the file to the tools folder and extract it:
