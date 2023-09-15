@@ -193,7 +193,7 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```
 
-- Go to https://github.com/rcsoccersim/rcssmonitor and download the last version of librcsc, in this case, it is the file:  
+- Go to https://github.com/helios-base/librcsc/tags and download the last version of librcsc, in this case, it is the file:  
 ```
   rc2023.tar.gz
 ```
