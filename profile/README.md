@@ -101,10 +101,8 @@ Before installing the tools:
 
 - Configure the project:
 ```bash
-  ./configure --prefix=$HOME/Documents/rc/tools
+  ./configure --prefix=$HOME/rc/tools
 ```
-
-Note: You can substitute the "$HOME/Documents" with the location of your rc folder.
 
 - Compile the files:
 ```bash
@@ -120,8 +118,8 @@ Note: You can substitute the "$HOME/Documents" with the location of your rc fold
 ```bash
   # Add these lines in the final of the file:
   ### user
-  export LD_LIBRARY_PATH=$HOME/Documents/rc/tools/lib:$LD_LIBRARY_PATH
-  export PATH=$HOME/Documents/rc/tools/bin:$PATH
+  export LD_LIBRARY_PATH=$HOME/rc/tools/lib:$LD_LIBRARY_PATH
+  export PATH=$HOME/rc/tools/bin:$PATH
 ```
 
 Note: you can edit this file with any text editor. It's located in the home directory.
@@ -167,7 +165,7 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 
 - Configure the project:
 ```bash
-  ./configure --prefix=$HOME/Documents/rc/tools
+  ./configure --prefix=$HOME/rc/tools
 ```
 
 - Compile the files:
@@ -215,7 +213,7 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool
 
 - Configure the project:
 ```bash
-  ./configure --prefix=$HOME/Documents/rc/tools
+  ./configure --prefix=$HOME/rc/tools
 ```
 
 - Compile the files:
@@ -230,6 +228,25 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool
 
 ### How to Install HELIOS-BASE team
 
+- Run the command:
+```bash
+  ./bootstrap
+```
+
+- Configure the project:
+```bash
+  ./configure --with-librcsc=$HOME/rc/tools
+```
+
+- Compile the files:
+```bash
+  sudo make -j6
+```
+
+- Install the project:
+```bash
+  sudo make install
+```
 
 ### How to execute a match
 
