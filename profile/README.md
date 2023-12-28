@@ -14,19 +14,13 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 
 - [iBots 2D UFT](#ibots-2d-uft)
   - [Table of Contents](#table-of-contents)
-  - [Introduction to RoboCup 2D Soccer League](#introduction-to-robocup-2d-soccer-league)
   - [Important links](#important-links)
   - [Our work](#our-work)
-  - [Introduction to C++](#introduction-to-c)
   - [Tutorials](#tutorials)
     - [How to Install rcssserver](#how-to-install-rcssserver)
     - [How to Install rcssmonitor](#how-to-install-rcssmonitor)
     - [How to Install librsc](#how-to-install-librsc)
     - [How to Install HELIOS-BASE team](#how-to-install-helios-base-team)
-    - [How to execute a match](#how-to-execute-a-match)
- 
-## Introduction to RoboCup 2D Soccer League
-
 
 ## Important links
 
@@ -55,8 +49,6 @@ Throughout their participation in six events, the iBots team was required to sub
 * [Implementação de um Sistema de Aprendizado por Reforço para Aprimoramento de Passes na Equipe iBots de Futebol de Robôs Simulados 2D, 2012](https://github.com/ibotsuft/.github/blob/main/our_work/Implementa%C3%A7%C3%A3o%20de%20um%20Sistema%20de%20Aprendizado%20por%20Refor%C3%A7o%20para%20Aprimoramento%20de%20Passes%20na%20Equipe%20iBots%20de%20Futebol%20de%20Rob%C3%B4s%20Simulados.pdf)
 * [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013](https://github.com/ibotsuft/.github/blob/main/our_work/Rcssdebugger%20-%20Um%20depurador%20para%20a_liga%20Robocup%20Simulation%202D%20de%20futebol_de%20rob%C3%B4s.pdf)
 * [ANÁLISE DE CONCEITOS TÁTICOS DO FUTEBOL POR MEIO DE SIMULAÇÃO COMPUTACIONAL, 2015](https://github.com/ibotsuft/.github/blob/main/our_work/AN%C3%81LISE%20DE%20CONCEITOS%20T%C3%81TICOS%20DO%20FUTEBOL.pdf)
-
-## Introduction to C++
 
 
 ## Tutorials
@@ -247,7 +239,4 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```bash
   sudo make install
 ```
-
-### How to execute a match
-
 
