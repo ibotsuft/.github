@@ -150,7 +150,7 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
   tar xvzf rcssmonitor-18.0.0.tar.gz 
 ```
 
-- Enter the rcssserver directory:
+- Enter the rcssmonitor directory:
 ```console
   cd rcssmonitor-18.0.0
 ```
