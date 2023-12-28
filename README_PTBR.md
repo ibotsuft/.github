@@ -34,6 +34,8 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 ## Nosso trabalho
 
 * [Documentação da librcsc (gerado automaticamente com Doxygen)](https://beamish-crepe-c4884a.netlify.app/)
+* [Abstract PDF Scraper](https://github.com/ibotsuft/scripts/tree/main/abstract_miner)
+* [Automated Test Execution Script](https://github.com/ibotsuft/scripts/tree/main/automated_tests)
 
 ## Nosso trabalho (pesquisa)
 
