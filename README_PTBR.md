@@ -12,7 +12,7 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 
 - [Links Importantes](#links-importantes)
 - [Nosso Trabalho](#nosso-trabalho)
-- [Nosso Trabalho](#nosso-trabalho-pesquisa)
+- [Nosso Trabalho (pesquisa)](#nosso-trabalho-pesquisa)
 - [Tutoriais](#tutoriais)
   - [Como Instalar o rcssserver](#como-instalar-o-rcssserver)
   - [Como Instalar o rcssmonitor](#como-instalar-o-rcssmonitor)
