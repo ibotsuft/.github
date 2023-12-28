@@ -34,7 +34,7 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 * [LARC/CBR 2023](https://bitbucket.org/larc_cbr_2d_simulation/larc-cbr-2023-simulation-2d/src/master/)
 
 
-## Our work
+## Our work (research)
 
 Throughout their participation in six events, the iBots team was required to submit a Team Description Paper (TDP) for each of them, resulting in a total of six papers authored by the iBots. Furthermore, a number of participants also chose iBots as the subject of their research endeavors.
 
