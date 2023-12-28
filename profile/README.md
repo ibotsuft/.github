@@ -56,58 +56,58 @@ Throughout their participation in six events, the iBots team was required to sub
 Before installing the tools:
 
 - Create a directory named rc:
-```bash
+```console
   mkdir rc
 ```
 - Enter the rc directory:
-```bash
+```console
   cd rc
 ```
 
 - Create a tools directory inside rc:
-```bash
+```console
   mkdir tools
 ```
 
 ### How to Install rcssserver
 
 - Install all needed dependencies:
-```bash
+```console
   sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
 ```
 
 - Go to https://github.com/rcsoccersim/rcssserver/releases and download the last version of rcssserver, in this case, it is the file:  
-```bash
+```console
    rcssserver-18.1.3.tar.gz 
 ```
 
 - Move the file to the tools folder and extract it:
-```bash
+```console
   tar xvzf rcssserver-18.1.3.tar.gz
 ```
 
 - Enter the rcssserver directory:
-```bash
+```console
   cd rcssserver-18.1.3
 ```
 
 - Configure the project:
-```bash
+```console
   ./configure --prefix=$HOME/rc/tools
 ```
 
 - Compile the files:
-```bash
+```console
   sudo make -j6
 ```
 
 - Install the project:
-```bash
+```console
   sudo make install
 ```
 
 - Configure .bashrc or the default shell of your linux distro file:
-```bash
+```console
   # Add these lines in the final of the file:
   ### user
   export LD_LIBRARY_PATH=$HOME/rc/tools/lib:$LD_LIBRARY_PATH
@@ -118,25 +118,25 @@ Note: you can edit this file with any text editor. It's located in the home dire
 Note: As I am using Kali Linux, the default shell is zsh, so, the file that I am changing is .zshrc, not .bashrc.
 
 - Run the rcssserver:
-```bash
+```console
   rcssserver
 ```
 
 ### How to Install rcssmonitor
 
 - Install all needed dependencies:
-```bash
+```console
   sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
 ```
 
 Note: If you get this error: Package 'qt5-default' has no installation candidate, you must do:  
-```bash
+```console
   sudo apt install build-essential libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
 ```
 
 and 
 
-```bash
+```console
 sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 ```
 
@@ -146,32 +146,32 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 ```
 
 - Move the file to the tools folder and extract it:
-```bash
+```console
   tar xvzf rcssmonitor-18.0.0.tar.gz 
 ```
 
 - Enter the rcssserver directory:
-```bash
+```console
   cd rcssmonitor-18.0.0
 ```
 
 - Configure the project:
-```bash
+```console
   ./configure --prefix=$HOME/rc/tools
 ```
 
 - Compile the files:
-```bash
+```console
   sudo make -j6
 ```
 
 - Install the project:
-```bash
+```console
   sudo make install
 ```
 
 - Run the rcssmonitor:
-```bash
+```console
   rcssmonitor
 ```
 
@@ -179,7 +179,7 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 ### How to Install librsc
 
 - Install all needed dependencies:
-```bash
+```console
 sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```
 
@@ -189,54 +189,54 @@ sudo apt install build-essential libboost-all-dev autoconf automake libtool
 ```
 
 - Move the file to the tools folder and extract it:
-```bash
+```console
   tar xvzf rc2023.tar.gz
 ```
 
 - Enter the librcsc directory:
-```bash
+```console
   cd librcsc-rc2023
 ```
 
 - Run the command:
-```bash
+```console
   ./bootstrap
 ```
 
 - Configure the project:
-```bash
+```console
   ./configure --prefix=$HOME/rc/tools
 ```
 
 - Compile the files:
-```bash
+```console
   sudo make -j6
 ```
 
 - Install the project:
-```bash
+```console
   sudo make install
 ```
 
 ### How to Install HELIOS-BASE team
 
 - Run the command:
-```bash
+```console
   ./bootstrap
 ```
 
 - Configure the project:
-```bash
+```console
   ./configure --with-librcsc=$HOME/rc/tools
 ```
 
 - Compile the files:
-```bash
+```console
   sudo make -j6
 ```
 
 - Install the project:
-```bash
+```console
   sudo make install
 ```
 
