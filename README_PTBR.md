@@ -16,7 +16,7 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
   - [Como Instalar o rcssserver](#como-instalar-o-rcssserver)
   - [Como Instalar o rcssmonitor](#como-instalar-o-rcssmonitor)
   - [Como Instalar o librsc](#como-instalar-o-librsc)
-  - [Como Instalar a Equipe HELIOS-BASE](#como-instalar-a-equipe-helios-base)
+  - [Como Instalar a Equipe HELIOS-BASE](#como-instalar-a-equipe-base-helios-base)
  
 ## Introdução a liga de simulação de futebol 2D da RoboCup
 
@@ -69,7 +69,7 @@ Antes de instalar as ferramentas:
   mkdir tools
 ```
 
-### Como instalar rcssserver
+### Como instalar o rcssserver
 
 - Instale todas as dependências necessárias:
 ```console
@@ -122,7 +122,7 @@ Note: As I am using Kali Linux, the default shell is zsh, so, the file that I am
   rcssserver
 ```
 
-### Como instalar rcssmonitor
+### Como instalar o rcssmonitor
 
 - Instale todas as dependências necessárias:
 ```console
@@ -175,7 +175,7 @@ sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
   rcssmonitor
 ```
 
-### Como instalar librsc
+### Como instalar o librsc
 
 - Instale todas as dependências necessárias:
 ```console
