@@ -37,6 +37,8 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 ## Our work
 
 * [librcsc Documentation (auto-generated with Doxygen)](https://beamish-crepe-c4884a.netlify.app/)
+* [Abstract PDF Scraper](https://github.com/ibotsuft/scripts/tree/main/abstract_miner)
+* [Automated Test Execution Script](https://github.com/ibotsuft/scripts/tree/main/automated_tests)
 
 ## Our work (research)
 
