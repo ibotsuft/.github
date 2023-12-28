@@ -10,16 +10,13 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 
 ## Sumário
 
-- [Introdução à Liga de Futebol 2D da RoboCup](#introdução-à-robocup-2d-soccer-league)
 - [Links Importantes](#links-importantes)
 - [Nosso Trabalho](#nosso-trabalho)
-- [Introdução ao C++](#introdução-ao-c++)
 - [Tutoriais](#tutoriais)
   - [Como Instalar o rcssserver](#como-instalar-o-rcssserver)
   - [Como Instalar o rcssmonitor](#como-instalar-o-rcssmonitor)
   - [Como Instalar o librsc](#como-instalar-o-librsc)
   - [Como Instalar a Equipe HELIOS-BASE](#como-instalar-a-equipe-helios-base)
-  - [Como Executar uma Partida](#como-executar-uma-partida)
  
 ## Introdução a liga de simulação de futebol 2D da RoboCup
 
