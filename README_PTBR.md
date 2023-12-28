@@ -33,7 +33,7 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 * [LARC/CBR 2023](https://bitbucket.org/larc_cbr_2d_simulation/larc-cbr-2023-simulation-2d/src/master/)
 
 
-## Nosso trabalho
+## Nosso trabalho (pesquisa)
 
 Ao longo de sua participação em seis eventos, a equipe iBots precisou enviar um Artigo de Descrição da Equipe (TDP) para cada um deles, resultando em um total de seis artigos escritos pela equipe iBots. Além disso, diversos participantes escolheram os iBots como tema de suas pesquisas.
 
