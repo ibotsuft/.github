@@ -12,14 +12,13 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 
 - [Links Importantes](#links-importantes)
 - [Nosso Trabalho](#nosso-trabalho)
+- [Nosso Trabalho](#nosso-trabalho-pesquisa)
 - [Tutoriais](#tutoriais)
   - [Como Instalar o rcssserver](#como-instalar-o-rcssserver)
   - [Como Instalar o rcssmonitor](#como-instalar-o-rcssmonitor)
   - [Como Instalar o librsc](#como-instalar-o-librsc)
   - [Como Instalar a Equipe HELIOS-BASE](#como-instalar-a-equipe-base-helios-base)
  
-## Introdução a liga de simulação de futebol 2D da RoboCup
-
 
 ## Links importantes
 
@@ -32,6 +31,9 @@ Hoje, os iBots têm diversos objetivos, incluindo a refatoração do código leg
 * [LARC/CBR 2D Simulation BitBucket org](https://bitbucket.org/larc_cbr_2d_simulation/workspace/repositories/)
 * [LARC/CBR 2023](https://bitbucket.org/larc_cbr_2d_simulation/larc-cbr-2023-simulation-2d/src/master/)
 
+## Nosso trabalho
+
+* [Documentação da librcsc (gerado automaticamente com Doxygen)](https://beamish-crepe-c4884a.netlify.app/)
 
 ## Nosso trabalho (pesquisa)
 
@@ -48,7 +50,6 @@ Ao longo de sua participação em seis eventos, a equipe iBots precisou enviar u
 * [Implementação de um Sistema de Aprendizado por Reforço para Aprimoramento de Passes na Equipe iBots de Futebol de Robôs Simulados 2D, 2012](https://github.com/ibotsuft/.github/blob/main/our_work/Implementa%C3%A7%C3%A3o%20de%20um%20Sistema%20de%20Aprendizado%20por%20Refor%C3%A7o%20para%20Aprimoramento%20de%20Passes%20na%20Equipe%20iBots%20de%20Futebol%20de%20Rob%C3%B4s%20Simulados.pdf)
 * [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013](https://github.com/ibotsuft/.github/blob/main/our_work/Rcssdebugger%20-%20Um%20depurador%20para%20a_liga%20Robocup%20Simulation%202D%20de%20futebol_de%20rob%C3%B4s.pdf)
 * [ANÁLISE DE CONCEITOS TÁTICOS DO FUTEBOL POR MEIO DE SIMULAÇÃO COMPUTACIONAL, 2015](https://github.com/ibotsuft/.github/blob/main/our_work/AN%C3%81LISE%20DE%20CONCEITOS%20T%C3%81TICOS%20DO%20FUTEBOL.pdf)
-
 
 
 ## Tutoriais
