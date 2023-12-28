@@ -15,7 +15,7 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 - [iBots 2D UFT](#ibots-2d-uft)
   - [Table of Contents](#table-of-contents)
   - [Important links](#important-links)
-  - [Our work](#our-work)
+  - [Our work](#our-work-research)
   - [Tutorials](#tutorials)
     - [How to Install rcssserver](#how-to-install-rcssserver)
     - [How to Install rcssmonitor](#how-to-install-rcssmonitor)
@@ -33,6 +33,9 @@ Today, iBots has set its sights on several goals, including the refactoring of l
 * [LARC/CBR 2D Simulation BitBucket org](https://bitbucket.org/larc_cbr_2d_simulation/workspace/repositories/)
 * [LARC/CBR 2023](https://bitbucket.org/larc_cbr_2d_simulation/larc-cbr-2023-simulation-2d/src/master/)
 
+## Our work
+
+* [librcsc Documentation (auto-generated with Doxygen)](https://beamish-crepe-c4884a.netlify.app/)
 
 ## Our work (research)
 
