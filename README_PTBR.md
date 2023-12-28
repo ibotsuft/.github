@@ -52,24 +52,192 @@ Ao longo de sua participação em seis eventos, a equipe iBots precisou enviar u
 * [Rcssdebugger - Um depurador para a liga Robocup Simulation 2D de futebol de robôs, 2013](https://github.com/ibotsuft/.github/blob/main/our_work/Rcssdebugger%20-%20Um%20depurador%20para%20a_liga%20Robocup%20Simulation%202D%20de%20futebol_de%20rob%C3%B4s.pdf)
 * [ANÁLISE DE CONCEITOS TÁTICOS DO FUTEBOL POR MEIO DE SIMULAÇÃO COMPUTACIONAL, 2015](https://github.com/ibotsuft/.github/blob/main/our_work/AN%C3%81LISE%20DE%20CONCEITOS%20T%C3%81TICOS%20DO%20FUTEBOL.pdf)
 
-## Introdução C++
 
 
 ## Tutoriais
 
+Antes de instalar as ferramentas:
+
+- Crie um diretório chamado rc:
+```console
+  mkdir rc
+```
+- Entre no diretório:
+```console
+  cd rc
+```
+
+- Crie um diretório tools dentro de rc:
+```console
+  mkdir tools
+```
 
 ### Como instalar rcssserver
 
+- Instale todas as dependências necessárias:
+```console
+  sudo apt install build-essential automake autoconf libtool flex bison libboost-all-dev
+```
+
+- Vá para https://github.com/rcsoccersim/rcssserver/releases e baixe a última versão do rcssserver, nesse caso, é o arquivo:
+```console
+   rcssserver-18.1.3.tar.gz 
+```
+
+- Mova o arquivo para a pasta tools e extraia-o:
+```console
+  tar xvzf rcssserver-18.1.3.tar.gz
+```
+
+- Entre no diretório:
+```console
+  cd rcssserver-18.1.3
+```
+
+- Configure p projeto:
+```console
+  ./configure --prefix=$HOME/rc/tools
+```
+
+- Compile os arquivos:
+```console
+  sudo make -j6
+```
+
+- Instale o projeto:
+```console
+  sudo make install
+```
+
+- Configure o .bashrc ou o  shell padrão da sua distribuição linux:
+```console
+  # Adicione essas linhas no final do arquivo:
+  ### user
+  export LD_LIBRARY_PATH=$HOME/rc/tools/lib:$LD_LIBRARY_PATH
+  export PATH=$HOME/rc/tools/bin:$PATH
+```
+
+Note: you can edit this file with any text editor. It's located in the home directory.
+Note: As I am using Kali Linux, the default shell is zsh, so, the file that I am changing is .zshrc, not .bashrc.
+
+- Rode o  rcssserver:
+```console
+  rcssserver
+```
 
 ### Como instalar rcssmonitor
 
+- Instale todas as dependências necessárias:
+```console
+  sudo apt install build-essential qt5-default libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+Obvservação: Se você encontrar esse erro: Package 'qt5-default' has no installation candidate, você deve executar:  
+```console
+  sudo apt install build-essential libfontconfig1-dev libaudio-dev libxt-dev libglib2.0-dev libxi-dev libxrender-dev
+```
+
+e 
+
+```console
+sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+```
+
+- Vá para https://github.com/rcsoccersim/rcssmonitor e baixe a última versão do rcssmonitor, nesse caso, é o arquivo:
+```
+  rcssmonitor-18.0.0.tar.gz 
+```
+
+- Mova o arquivo para a pasta tools e extraia-o:
+```console
+  tar xvzf rcssmonitor-18.0.0.tar.gz 
+```
+
+- Entre no diretório:
+```console
+  cd rcssmonitor-18.0.0
+```
+
+- Configure o projeto:
+```console
+  ./configure --prefix=$HOME/rc/tools
+```
+
+- Compile os arquivos:
+```console
+  sudo make -j6
+```
+
+- Instale o projeto:
+```console
+  sudo make install
+```
+
+- Rode o rcssmonitor:
+```console
+  rcssmonitor
+```
 
 ### Como instalar librsc
 
+- Instale todas as dependências necessárias:
+```console
+sudo apt install build-essential libboost-all-dev autoconf automake libtool
+```
 
-### Como instalar HELIOS-BASE team
+- Vá para https://github.com/helios-base/librcsc/tags e baixe a última versão da librcsc, nesse caso, é o arquivo:  
+```
+  rc2023.tar.gz
+```
 
+- Mova o arquivo para a pasta tools e extraia-o:
+```console
+  tar xvzf rc2023.tar.gz
+```
 
-### Como executar uma partida
+- Entre no diretório:
+```console
+  cd librcsc-rc2023
+```
 
+- Rode o comando:
+```console
+  ./bootstrap
+```
 
+- Configure o projeto:
+```console
+  ./configure --prefix=$HOME/rc/tools
+```
+
+- Compile os arquivos:
+```console
+  sudo make -j6
+```
+
+- Instale o projeto:
+```console
+  sudo make install
+```
+
+### Como instalar a equipe base HELIOS-BASE
+
+- Rode o comando:
+```console
+  ./bootstrap
+```
+
+- Configure o projeto:
+```console
+  ./configure --with-librcsc=$HOME/rc/tools
+```
+
+- Compile os arquivos:
+```console
+  sudo make -j6
+```
+
+- Instale o projeto:
+```console
+  sudo make install
+```
